@@ -1,0 +1,106 @@
+body {
+    font-family: "Poooins", sans-serif;
+    color: #22343d;
+    background-color: #fff;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header {
+}
+.header-logo {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-link {  
+}
+.current {
+}
+.header-btn-list {
+}
+.header-btn {
+}
+/* HERO */
+.hero .container{
+    
+}
+.hero {
+    padding-top: 25px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.hero-btn-list {
+     display: flex;
+  gap: 30px;
+}
+/* FEATURES */
+.features {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #22343d;
+    max-width: 530px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.features-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.features-item {
+    width: calc((100% - 90px) / 4);
+}
+img {
+    margin-bottom: 18px;
+}
+.names {
+    margin-bottom: 13px;
+}
+
+.section-text {
+}
+.features-button {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 175px;
+height: 53px;
+font-weight: 700;
+font-size: 16px;
+color: #fff;
+background: #02897a;
+}
