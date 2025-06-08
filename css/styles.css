@@ -266,9 +266,27 @@ border-radius: 4px; */
   display: flex;
   flex-direction: column;
 }
-.feedback input {
-  padding: 4px;
-  border: 1px solid #bcd0e5;
+.form-text {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #22343d;
+padding-bottom: 30px;
+}
+
+.footer-label {
+    position: relative;
+}
+
+.footer-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+  transform: translateY(-50%);
+} 
+.footer-input {
+padding-left: 42px;
+border: 1px solid #bcd0e5;
 border-radius: 4px;
 height: 48px;
 max-width: 325px;
