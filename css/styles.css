@@ -226,6 +226,63 @@ img {
   justify-content: space-between;
 }
 
+/* ABOUT */
+.about .container {
+  display: block;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+.about {
+}
+
+.about-content {
+  width: 486px;
+  height: 418px;
+}
+.about-item-first,
+.about-item-second,
+.about-item-third {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px; */
+}
+.about-list {
+}
+.about-item-first {
+}
+.about-text {
+  font:
+    600 16px 'Poppins',
+    sans-serif;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.about-title {
+  font:
+    700 32px 'Poppins',
+    sans-serif;
+  color: #22343d;
+  margin-bottom: 25px;
+}
+.about-subtext {
+  font:
+    400 16px / 1.625 'Poppins',
+    sans-serif;
+  color: #22343d;
+  margin-bottom: 30px;
+}
+.about-sublist {
+}
+.about-subitem {
+}
+.about-subtitle {
+  margin-bottom: 12px;
+}
+.about-item-second {
+}
+.about-item-third {
+}
 /* FOOTER */
 .footer-logo {
   font-weight: 700;
